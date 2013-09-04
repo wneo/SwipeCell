@@ -19,6 +19,7 @@
 		B5F0FA5017D58091004DBD5E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F0FA4E17D58091004DBD5E /* MainStoryboard_iPhone.storyboard */; };
 		B5F0FA5317D58091004DBD5E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F0FA5117D58091004DBD5E /* MainStoryboard_iPad.storyboard */; };
 		B5F0FA5617D58091004DBD5E /* SwipeCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F0FA5517D58091004DBD5E /* SwipeCellViewController.m */; };
+		B5F0FA5E17D58E49004DBD5E /* SwipeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F0FA5D17D58E49004DBD5E /* SwipeCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		B5F0FA5217D58091004DBD5E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		B5F0FA5417D58091004DBD5E /* SwipeCellViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeCellViewController.h; sourceTree = "<group>"; };
 		B5F0FA5517D58091004DBD5E /* SwipeCellViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeCellViewController.m; sourceTree = "<group>"; };
+		B5F0FA5C17D58E49004DBD5E /* SwipeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeCell.h; sourceTree = "<group>"; };
+		B5F0FA5D17D58E49004DBD5E /* SwipeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				B5F0FA5117D58091004DBD5E /* MainStoryboard_iPad.storyboard */,
 				B5F0FA5417D58091004DBD5E /* SwipeCellViewController.h */,
 				B5F0FA5517D58091004DBD5E /* SwipeCellViewController.m */,
+				B5F0FA5C17D58E49004DBD5E /* SwipeCell.h */,
+				B5F0FA5D17D58E49004DBD5E /* SwipeCell.m */,
 				B5F0FA3D17D58091004DBD5E /* Supporting Files */,
 			);
 			path = SwipeCell;
@@ -181,6 +186,7 @@
 				B5F0FA4317D58091004DBD5E /* main.m in Sources */,
 				B5F0FA4717D58091004DBD5E /* SwipeCellAppDelegate.m in Sources */,
 				B5F0FA5617D58091004DBD5E /* SwipeCellViewController.m in Sources */,
+				B5F0FA5E17D58E49004DBD5E /* SwipeCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

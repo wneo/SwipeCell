@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SwipeCellViewController : UIViewController
-
+@interface SwipeCellViewController : UIViewController <UITableViewDataSource>
+@property (nonatomic, strong) UITableView *tableView;
 @end
